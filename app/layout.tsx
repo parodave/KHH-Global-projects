@@ -6,18 +6,18 @@ import { ThemeProvider } from '@/components/ui/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'ImmobilierDAO - Location Premium Marrakech & Tanger',
+  title: 'KHH Global Projects - Location Premium Marrakech & Tanger',
   description: 'Découvrez nos propriétés d\'exception au Maroc. Location premium avec service haut de gamme à Marrakech et Tanger.',
-  keywords: 'location, immobilier, Marrakech, Tanger, Maroc, villa, riad, premium, DAO',
+  keywords: 'location, immobilier, Marrakech, Tanger, Maroc, villa, riad, premium, KHH Global Projects',
   openGraph: {
-    title: 'ImmobilierDAO - Location Premium',
+    title: 'KHH Global Projects - Location Premium',
     description: 'Propriétés d\'exception au Maroc',
     type: 'website',
     locale: 'fr_FR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ImmobilierDAO - Location Premium',
+    title: 'KHH Global Projects - Location Premium',
     description: 'Propriétés d\'exception au Maroc',
   },
 };

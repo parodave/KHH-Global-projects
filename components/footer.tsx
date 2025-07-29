@@ -16,7 +16,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Building2 className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">ImmobilierDAO</span>
+              <span className="text-xl font-bold">KHH Global Projects</span>
             </Link>
             <p className="text-muted-foreground mb-4">
               {t('footer.description')}
@@ -57,7 +57,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} ImmobilierDAO. {t('footer.rights')}.
+          © {new Date().getFullYear()} KHH Global Projects. {t('footer.rights')}.
         </div>
       </div>
     </footer>
