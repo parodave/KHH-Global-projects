@@ -84,31 +84,6 @@ export default function Contact() {
                 </Card>
               </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.4 }}
-              >
-                <Card className="shadow-lg">
-                  <CardContent className="p-8">
-                    <h3 className="text-2xl font-semibold mb-4">Horaires d'ouverture</h3>
-                    <div className="space-y-2 text-muted-foreground">
-                      <div className="flex justify-between">
-                        <span>Lundi - Vendredi</span>
-                        <span>9h00 - 18h00</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Samedi</span>
-                        <span>9h00 - 16h00</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Dimanche</span>
-                        <span>Fermé</span>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
             </div>
           </div>
         </div>
