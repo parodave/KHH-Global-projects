@@ -1,0 +1,61 @@
+{
+  "common": {
+    "home": "Home",
+    "contact": "Contact",
+    "properties": "Properties",
+    "about": "About",
+    "language": "Language",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
+  },
+  "hero": {
+    "title": "Premium Rentals",
+    "subtitle": "Marrakech & Tangier",
+    "description": "Discover our exceptional properties in Morocco's most beautiful cities. Premium service for unforgettable stays.",
+    "cta": "View Properties",
+    "ctaSecondary": "Contact Us"
+  },
+  "properties": {
+    "title": "Our Exceptional Properties",
+    "subtitle": "Premium selection of rental properties",
+    "perNight": "per night",
+    "viewMore": "View more",
+    "noProperties": "No properties available at the moment"
+  },
+  "dao": {
+    "title": "Real Estate DAO",
+    "subtitle": "The future of real estate investment",
+    "description": "Join our decentralized autonomous organization and participate in the real estate revolution in Morocco.",
+    "features": {
+      "transparency": "Total transparency",
+      "democracy": "Democratic governance",
+      "innovation": "Blockchain innovation"
+    },
+    "cta": "Join the DAO"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Error sending message"
+    },
+    "info": {
+      "phone": "+212 6XX XXX XXX",
+      "email": "contact@immobilier-dao.ma",
+      "address": "Marrakech & Tangier, Morocco"
+    }
+  },
+  "footer": {
+    "description": "Your premium partner for real estate rentals in Morocco",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

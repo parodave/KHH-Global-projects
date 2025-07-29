@@ -1,0 +1,61 @@
+{
+  "common": {
+    "home": "Accueil",
+    "contact": "Contact",
+    "properties": "Biens",
+    "about": "À propos",
+    "language": "Langue",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair"
+  },
+  "hero": {
+    "title": "Location Premium",
+    "subtitle": "Marrakech & Tanger",
+    "description": "Découvrez nos propriétés d'exception dans les plus belles villes du Maroc. Un service premium pour des séjours inoubliables.",
+    "cta": "Voir les biens",
+    "ctaSecondary": "Nous contacter"
+  },
+  "properties": {
+    "title": "Nos Biens d'Exception",
+    "subtitle": "Sélection premium de propriétés à louer",
+    "perNight": "par nuit",
+    "viewMore": "Voir plus",
+    "noProperties": "Aucun bien disponible pour le moment"
+  },
+  "dao": {
+    "title": "DAO Immobilière",
+    "subtitle": "L'avenir de l'investissement immobilier",
+    "description": "Rejoignez notre organisation autonome décentralisée et participez à la révolution de l'immobilier au Maroc.",
+    "features": {
+      "transparency": "Transparence totale",
+      "democracy": "Gouvernance démocratique",
+      "innovation": "Innovation blockchain"
+    },
+    "cta": "Rejoindre la DAO"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous accompagner",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Erreur lors de l'envoi du message"
+    },
+    "info": {
+      "phone": "+212 6XX XXX XXX",
+      "email": "contact@immobilier-dao.ma",
+      "address": "Marrakech & Tanger, Maroc"
+    }
+  },
+  "footer": {
+    "description": "Votre partenaire premium pour la location immobilière au Maroc",
+    "rights": "Tous droits réservés",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  }
+}
