@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Users, Bed, Bath } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import { Property } from '@/data/properties';
 import { useTranslation } from 'react-i18next';
 
@@ -20,7 +21,7 @@ export function PropertyCard({ property, index }: PropertyCardProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      whileHover={{ y: -5 }}
+      whileHover={{ y: -5, scale: 1.02 }}
       className="group"
     >
       <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
@@ -31,13 +32,8 @@ export function PropertyCard({ property, index }: PropertyCardProps) {
             className="w-full h-full object-cover transition-transform group-hover:scale-105"
           />
           {property.featured && (
-            <Badge className="absolute top-4 left-4 bg-primary">
-              Premium
-            </Badge>
+            <Badge className="absolute top-4 left-4 bg-primary">Premium</Badge>
           )}
-          <div className="absolute bottom-4 right-4 bg-black/80 text-white px-3 py-1 rounded-full text-sm font-semibold">
-            {property.pricePerNight}€ {t('properties.perNight')}
-          </div>
         </div>
         
         <CardContent className="p-6">
@@ -70,6 +66,16 @@ export function PropertyCard({ property, index }: PropertyCardProps) {
               </div>
             </div>
           </div>
+
+          <Button
+            variant="outline"
+            className="mt-4 w-full"
+            asChild
+          >
+            <a href={property.airbnbUrl} target="_blank" rel="noopener noreferrer">
+              {t('properties.airbnb')}
+            </a>
+          </Button>
         </CardContent>
       </Card>
     </motion.div>

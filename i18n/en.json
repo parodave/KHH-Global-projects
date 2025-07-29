@@ -20,7 +20,8 @@
     "subtitle": "Premium selection of rental properties",
     "perNight": "per night",
     "viewMore": "View more",
-    "noProperties": "No properties available at the moment"
+    "noProperties": "No properties available at the moment",
+    "airbnb": "View on Airbnb"
   },
   "dao": {
     "title": "Real Estate DAO",

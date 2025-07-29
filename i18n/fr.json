@@ -20,7 +20,8 @@
     "subtitle": "Sélection premium de propriétés à louer",
     "perNight": "par nuit",
     "viewMore": "Voir plus",
-    "noProperties": "Aucun bien disponible pour le moment"
+    "noProperties": "Aucun bien disponible pour le moment",
+    "airbnb": "Voir sur Airbnb"
   },
   "dao": {
     "title": "DAO Immobilière",
