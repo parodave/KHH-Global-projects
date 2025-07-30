@@ -6,7 +6,7 @@ import { Footer } from '@/components/footer';
 import { HeroSection } from '@/components/hero-section';
 import { PropertiesSection } from '@/components/properties-section';
 import { DaoSection } from '@/components/dao-section';
-import { WhatsAppButton } from '@/components/WhatsAppButton';
+import WhatsAppButton from '@/components/ui/whatsapp-button';
 import '../lib/i18n';
 
 export default function Home() {

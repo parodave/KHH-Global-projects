@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { ContactForm } from '@/components/contact-form';
-import { WhatsAppButton } from '@/components/WhatsAppButton';
+import WhatsAppButton from '@/components/ui/whatsapp-button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
